@@ -1,0 +1,984 @@
+[DefaultPlayer]
+Name=dantalizing
+Class=Engine.Pawn
+Character=Torch
+team=255
+Sex=M
+Voice=XGame.NightFemaleVoice
+SpectatorOnly=1
+
+[Engine.Input]
+UnknownF5=
+UnknownF4=
+Unknown10F=
+Unknown10E=
+MouseW=
+UnknownE3=
+UnknownE2=
+UnknownE1=
+UnknownE0=
+UnknownDF=
+UnknownDA=
+UnknownD9=
+UnknownD8=
+UnknownC7=
+UnknownC6=
+Mouse8=
+Mouse7=
+Mouse6=SwitchWeapon 1|altfire|onrelease switchtolastweapon
+Mouse5=
+Mouse4=
+Unicode=
+UnknownB8=
+UnknownB7=
+UnknownB6=
+UnknownB5=
+UnknownB4=
+UnknownB3=
+UnknownB2=
+UnknownB1=
+UnknownB0=
+UnknownAF=
+UnknownAE=
+UnknownAD=
+UnknownAC=
+UnknownAB=
+UnknownAA=
+UnknownA9=
+UnknownA8=
+UnknownA7=
+UnknownA6=
+UnknownA5=
+UnknownA4=
+Unknown9F=
+Unknown9E=
+Unknown9D=
+Unknown9C=
+Unknown9B=
+Unknown9A=
+Unknown99=
+Unknown98=
+Unknown97=
+Unknown96=
+Unknown95=
+Unknown94=
+Unknown93=
+Unknown92=
+Unknown8F=
+Unknown8E=
+Unknown8D=
+Unknown8C=
+Unknown8B=
+Unknown8A=
+Unknown89=
+Unknown88=
+NumPad6=
+NumPad5=
+NumPad4=
+NumPad3=
+NumPad2=
+NumPad1=
+NumPad0=
+Unknown5F=
+Unknown5E=
+Unknown5D=
+Unknown5C=
+Unknown5B=
+Unknown40=
+Unknown3F=
+Unknown3E=
+Unknown3D=
+Unknown3C=
+Unknown3B=
+Unknown3A=
+Unknown1F=
+Unknown1E=
+Unknown1D=
+Unknown1C=
+Unknown1A=
+Unknown19=
+Unknown18=
+Unknown17=
+Unknown16=
+Unknown15=
+Unknown0F=
+Unknown0E=
+Unknown0C=
+Unknown0B=
+Unknown0A=
+Unknown07=
+Unknown06=
+Unknown05=
+StrProperty0=
+Aliases[0]=(Command="Button bFire | Fire",Alias="Fire")
+Aliases[1]=(Command="Button bAltFire | AltFire",Alias="AltFire")
+Aliases[2]=(Command="Axis aBaseY  Speed=+300.0",Alias="MoveForward")
+Aliases[3]=(Command="Axis aBaseY  Speed=-300.0",Alias="MoveBackward")
+Aliases[4]=(Command="Axis aBaseX Speed=-40.0",Alias="TurnLeft")
+Aliases[5]=(Command="Axis aBaseX  Speed=+40.0",Alias="TurnRight")
+Aliases[6]=(Command="Axis aStrafe Speed=-300.0",Alias="StrafeLeft")
+Aliases[7]=(Command="Axis aStrafe Speed=+300.0",Alias="StrafeRight")
+Aliases[8]=(Command="Jump | Axis aUp Speed=+300.0",Alias="Jump")
+Aliases[9]=(Command="Button bDuck | Axis aUp Speed=-300.0",Alias="Duck")
+Aliases[10]=(Command="Button bLook",Alias="look")
+Aliases[11]=(Command="Toggle bLook",Alias="LookToggle")
+Aliases[12]=(Command="ActivateItem",Alias="InventoryActivate")
+Aliases[13]=(Command="NextItem",Alias="InventoryNext")
+Aliases[14]=(Command="PrevItem",Alias="InventoryPrevious")
+Aliases[15]=(Command="Axis aLookUp Speed=+25.0",Alias="LookUp")
+Aliases[16]=(Command="Axis aLookUp Speed=-25.0",Alias="LookDown")
+Aliases[17]=(Command="Button bSnapLevel",Alias="CenterView")
+Aliases[18]=(Command="Button bRun",Alias="Walking")
+Aliases[19]=(Command="Button bStrafe",Alias="Strafe")
+Aliases[20]=(Command="NextWeapon",Alias="NextWeapon")
+Aliases[21]=(Command="Button bFreeLook",Alias="FreeLook")
+Aliases[22]=(Command="ViewClass Pawn",Alias="ViewTeam")
+Aliases[23]=(Command="Button bTurnToNearest",Alias="TurnToNearest")
+Aliases[24]=(Command="Button bTurn180",Alias="Turn180")
+Aliases[25]=(Command="ShowScores|OnRelease ShowScores",Alias="ScoreToggle")
+Aliases[26]=(Command="InGameChat",Alias="IngameChat")
+Aliases[27]=(Command="ServerInfo",Alias="ServerInfo")
+Aliases[28]=(Command="Button bVoiceTalk",Alias="VoiceTalk")
+Aliases[29]=(Command="Speak Team|Button bVoiceTalk|OnRelease SpeakLast",Alias="ToggleTeamChat")
+Aliases[30]=(Command="Speak Local|Button bVoiceTalk|OnRelease SpeakLast",Alias="ToggleLocalChat")
+Aliases[31]=(Command="Speak Public|Button bVoiceTalk|OnRelease SpeakLast",Alias="TogglePublicChat")
+Aliases[32]=(Command="Axis aBaseX SpeedBase=100.0 DeadZone=0.1",Alias="SpaceFighter_JoyX")
+Aliases[33]=(Command="Axis aLookUp SpeedBase=100.0 DeadZone=0.1",Alias="SpaceFighter_JoyY")
+Aliases[34]=(Command="Axis aUp Speed=+300.0 | Axis aStrafe SpeedBase=300.0 DeadZone=0.1",Alias="SpaceFighter_JoyV")
+Aliases[35]=(Command="Axis aBaseY SpeedBase=300.0 DeadZone=0.1 Invert=-1",Alias="SpaceFighter_JoySlider1")
+Aliases[36]=(Command=,Alias=)
+Aliases[37]=(Command=,Alias=)
+Aliases[38]=(Command=,Alias=)
+Aliases[39]=(Command=,Alias=)
+0=SwitchWeapon 0
+1=SwitchWeapon 1
+2=SwitchWeapon 2
+3=SwitchWeapon 3
+4=SwitchWeapon 4
+5=SwitchWeapon 5
+6=SwitchWeapon 6
+7=SwitchWeapon 7
+8=SwitchWeapon 8
+9=SwitchWeapon 9
+F1=ShowScores
+F2=InGameChat
+F3=ShowStats
+F4=ToggleBehindView
+F5=MyMenu
+F6=Stat Net
+F7=ToggleFreeCamSwivel
+F8=NextStats
+F9=shot
+F10=Cancel
+F11=MusicMenu
+F12=ToggleRadarMap
+F13=
+F14=
+F15=
+F16=
+F17=
+F18=
+F19=
+F20=
+F21=
+F22=
+F23=
+F24=AltFire
+A=StrafeLeft
+B=
+C=Duck
+D=StrafeRight
+E=Use
+F=VoiceTalk
+G=
+H=Hammer
+I=ToggleTeamChat
+j=Taunt pthrust
+K=Taunt asssmack
+L=Taunt throatcut
+M=BasePath 0
+N=BasePath 1
+O=ToggleLocalChat
+P=TogglePublicChat
+Q=
+R=TeamTalk
+S=MoveBackward
+T=Talk
+U=Use
+V=SpeechMenuToggle
+W=MoveForward
+X=ShowVoteMenu
+Y=writetolog
+Z=Strafe
+Alt=
+Attn=
+Backslash=ThrowWeapon
+Backspace=Jump
+Cancel=
+CapsLock=LookToggle
+Comma=StrafeLeft
+CrSel=
+Ctrl=Jump
+Delete=LookUp
+Down=MoveBackward
+End=CenterView|ACTOR ALIGN SNAPTOFLOOR ALIGN=1
+Enter=Use
+Equals=GrowHUD
+Escape=ShowMenu
+ErEof=
+Execute=
+ExSel=
+GreySlash=
+GreyStar=
+GreyMinus=
+GreyPlus=
+Help=
+home=
+Insert=
+LControl=
+Left=StrafeLeft
+LeftBracket=InventoryPrevious
+LShift=
+Minus=ShrinkHUD
+NoName=
+None=
+OemClear=
+PA1=
+PageDown=LookDown
+PageUp=
+Pause=Pause
+Period=StrafeRight
+Play=
+Print=
+PrintScrn=
+RControl=
+Right=StrafeRight
+RightBracket=InventoryNext
+RShift=
+ScrollLock=
+Select=
+Semicolon=Taunt gesture_point
+Separator=
+Shift=Duck
+SingleQuote=Strafe
+Slash=NextWeapon
+Space=Jump
+Tab=Type
+Tilde=ConsoleToggle
+Up=MoveForward
+Zoom=
+LeftMouse=Fire
+MiddleMouse=switchweapon 10
+RightMouse=AltFire
+MouseWheelDown=PipedSwitchWeapon 10|PipedSwitchWeapon 8|PipedSwitchWeapon 7|PipedSwitchWeapon 6|PipedSwitchWeapon 5|PipedSwitchWeapon 3
+MouseWheelUp=PipedSwitchWeapon 4|PipedSwitchWeapon 9|PipedSwitchWeapon 0|PipedSwitchWeapon 2
+MouseX=Count bXAxis | Axis aMouseX Speed=2.0
+MouseY=Count bYAxis | Axis aMouseY Speed=2.0
+MouseZ=
+NumLock=
+NumPad7=StrafeLeft
+NumPad8=MoveForward
+NumPad9=StrafeRight
+NumPadPeriod=
+Joy1=Fire
+Joy2=Jump
+Joy3=AltFire
+Joy4=Duck
+Joy5=NextWeapon
+Joy6=SwitchWeapon 2
+Joy7=SwitchWeapon 3
+Joy8=SwitchWeapon 4
+Joy9=SwitchWeapon 9
+Joy10=SwitchWeapon 0
+Joy11=InventoryPrevious
+Joy12=InventoryActivate
+Joy13=MoveForward
+Joy14=StrafeRight
+Joy15=MoveBackward
+Joy16=StrafeLeft
+JoyX=Axis aStrafe SpeedBase=300.0 DeadZone=0.1
+JoyY=Axis aBaseY SpeedBase=300.0 DeadZone=0.1 Invert=-1
+JoyZ=
+JoyR=
+JoyU=
+JoyV=Axis aBaseX SpeedBase=2.0 DeadZone=0.4
+JoySlider1=Axis aLookUp SpeedBase=2.0 DeadZone=0.4
+JoySlider2=
+
+[Engine.Controller]
+Handedness=2.000000
+
+[Engine.PlayerController]
+bNeverSwitchOnPickup=True
+bNoVoiceMessages=false
+bNoTextToSpeechVoiceMessages=true
+bOnlySpeakTeamText=false
+TextToSpeechVoiceVolume=1.000000
+bNoVoiceTaunts=false
+bNoAutoTaunts=false
+bAutoTaunt=false
+bNoMatureLanguage=false
+AnnouncerVolume=4
+AnnouncerLevel=2
+DesiredFOV=100.000000
+DefaultFOV=100.000000
+FOVAngle=90.0
+MaxTimeMargin=0.000000
+TimeMarginSlack=0.001000
+bLookUpStairs=False
+bSnapToLevel=False
+bAlwaysMouseLook=True
+bKeyboardLook=True
+bAlwaysLevel=False
+ngSecretSet=False
+EnemyTurnSpeed=45000
+InputClass=Class'Engine.PlayerInput'
+TeamBeaconMaxDist=4000.000000
+TeamBeaconPlayerInfoMaxDist=1200.000000
+TeamBeaconTexture=TeamSymbols.TeamBeaconT
+TeamBeaconTeamColors[0]=(B=0,G=0,R=180,A=255)
+TeamBeaconTeamColors[1]=(B=200,G=80,R=80,A=255)
+TeamBeaconCustomColor=(B=0,G=255,R=255,A=255)
+TeamBeaconUseCustomColor=True
+MaxResponseTime=0.5
+bSmallWeapons=true
+bEnableWeaponForceFeedback=False
+bEnablePickupForceFeedback=False
+bEnableDamageForceFeedback=False
+bEnableGUIForceFeedback=False
+bDynamicNetSpeed=True
+bLandingShake=true
+DemoMenuClass=GUI2K4.UT2K4DemoPlayback
+AutoJoinMask=5
+bEnableInitialChatRoom=True
+MidGameMenuClass=GUI2K4.UT2K4DisconnectOptionPage
+;AdminMenuClass=GUI2K4.RemoteAdmin
+ChatPasswordMenuClass=GUI2K4.UT2K4ChatPassword
+VoiceChatCodec=CODEC_48NB
+VoiceChatLANCodec=CODEC_96WB
+bAimingHelp=False
+bEnableStatsTracking=True
+ScreenFlashScaling=1.000000
+StatsUsername=dantalizing
+StatsPassword=insmodppa
+DynamicPingThreshold=400.000000
+AdminMenuClass=GUI2K4.RemoteAdmin
+LastActiveChannel=Team
+ChatPassword=
+DefaultActiveChannel=
+
+[Engine.Pawn]
+Bob=0.006000
+bWeaponBob=True
+bNoCoronas=False
+AmbientSoundScaling=0.800000
+bNoCoronas=False
+
+[Engine.Vehicle]
+bVehicleShadows=True
+
+[Engine.Player]
+ConfiguredInternetSpeed=9636
+ConfiguredLanSpeed=20000
+
+[Engine.HUD]
+bSmallWeaponBar=true
+bHideHUD=false
+HudOpacity=255.000000
+HudScale=1.000000
+HudCanvasScale=1.000000
+bMessageBeep=true
+bShowWeaponInfo=true
+bShowWeaponBar=True
+bShowPersonalInfo=true
+bShowPoints=true
+bCrosshairShow=true
+bShowPortrait=True
+bNoEnemyNames=False
+CrosshairScale=1.000000
+CrosshairOpacity=1.000000
+CrosshairStyle=0
+ConsoleMessageCount=4
+ConsoleFontSize=5
+MessageFontOffset=0
+bShowPortraitVC=True
+CrossHairColor=(B=255,G=255,R=255,A=255)
+
+[XGame.xDeathMessage]
+bNoConsoleDeathMessages=False
+
+[XInterface.GUIController]
+MenuMouseSens=1.25
+bModAuthor=false
+bExpert=false
+
+[GUI2K4.UT2K4GUIController]
+MenuMouseSens=1.250000
+
+[GUI2K4.SettingsTabs]
+bExpert=False
+
+[GUI2K4.UT2K4Browser_ServerListBox]
+FiltersPage=GUI2K4.SimpleFilterPage
+
+[GUI2K4.UT2K4ServerLoading]
+Backgrounds=2k4Menus.Loading.loadingscreen1
+Backgrounds=2k4Menus.Loading.loadingscreen2
+Backgrounds=2k4Menus.Loading.loadingscreen2
+Backgrounds=2k4Menus.Loading.loadingscreen4
+
+[DemoRecording]
+DemoMask=Demo%td
+
+[Screenshots]
+ShotMask=Shot%c
+ShotCount=4
+ShotDir=..\Screenshots
+
+[Engine.TextToSpeechAlias]
+RemoveCharacters=|:][}{^/\~()*
+Aliases=(MatchWords=("gg"),ReplaceWord="good game")
+Aliases=(MatchWords=("rofl","rotfl","rotflmao"),ReplaceWord="rolls on floor laughing!")
+Aliases=(MatchWords=("lol"),ReplaceWord="laughing out loud!")
+Aliases=(MatchWords=("thx"),ReplaceWord="thanks")
+Aliases=(MatchWords=("np"),ReplaceWord="no problem")
+Aliases=(MatchWords=(":)",":-)",":P"),ReplaceWord="smile")
+Aliases=(MatchWords=(";)",";-)",";P"),ReplaceWord="wink")
+Aliases=(MatchWords=("omg","omfg"),ReplaceWord="oh my god!")
+Aliases=(MatchWords=("ns"),ReplaceWord="nice shot")
+Aliases=(MatchWords=("hf"),ReplaceWord="have fun")
+Aliases=(MatchWords=("fc"),ReplaceWord="flag carrier")
+Aliases=(MatchWords=("ih"),ReplaceWord="incoming high")
+Aliases=(MatchWords=("iw"),ReplaceWord="incoming low")
+Aliases=(MatchWords=("ir"),ReplaceWord="incoming right")
+Aliases=(MatchWords=("il"),ReplaceWord="incoming left")
+Aliases=(MatchWords=("thx"),ReplaceWord="thanks")
+Aliases=(MatchWords=("gl"),ReplaceWord="good luck")
+Aliases=(MatchWords=("cya"),ReplaceWord="seeya")
+Aliases=(MatchWords=("gj"),ReplaceWord="good job")
+Aliases=(MatchWords=("ty"),ReplaceWord="thank you")
+Aliases=(MatchWords=("bbl"),ReplaceWord="be back later")
+Aliases=(MatchWords=("brb"),ReplaceWord="be right back")
+Aliases=(MatchWords=("bbiab"),ReplaceWord="be back in a bit")
+Aliases=(MatchWords=("woot","w00t"),ReplaceWord="woute")
+Aliases=(MatchWords=("woot!","w00t!"),ReplaceWord="woute!")
+Aliases=(MatchWords=("woohoo"),ReplaceWord="woo who")
+
+[UnrealGame.UnrealPlayer]
+CustomStatusAnnouncerPack=UnrealGame.FemaleAnnouncer
+CustomRewardAnnouncerPack=UnrealGame.MaleAnnouncer
+CustomizedAnnouncerPack=
+MaxRecentServers=25
+bDontShowLoginMenu=False
+RejoinChannels=Public
+RejoinChannels=Team
+RejoinChannels=dantalizing
+RecentServers=64.31.61.205:7777
+RecentServers=72.51.60.229:7777
+RecentServers=8.9.6.43:7777
+RecentServers=68.106.81.219:9000
+RecentServers=63.210.148.177:7777
+RecentServers=128.241.236.253:7777
+RecentServers=72.49.18.177:7777
+RecentServers=66.55.154.17:7777
+RecentServers=66.207.167.101:7777
+
+[GUI2K4.UT2K4IRC_Page]
+bIRCTextToSpeechEnabled=False
+
+[GUI2K4.Ut2K4Community]
+ModRevLevel=3
+LastModRevLevel=3
+
+[GUI2K4.UT2k4ServerBrowser]
+bStandardServersOnly=False
+CurrentGameType=XGame.xBombingRun
+bPlayerVerified=True
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=0,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=0,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=0,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=0,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=0,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=0,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=0,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=0,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=0,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=0,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=0,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=0,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=0,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="129.186.181.161",Port=0,QueryPort=7778,ServerName="ansaytor",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=5,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="66.191.128.83",Port=0,QueryPort=7778,ServerName="ÿ(A.S.S)ÀÀÀ=(Instagib-BombingRun)=0Pð(A.S.S)",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=22,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="205.134.233.7",Port=0,QueryPort=7778,ServerName="{AW}'s WeStCoAsT *BR* InsTaGiB",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=18,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="72.5.102.65",Port=0,QueryPort=7778,ServerName="ø@@Froz3n F0015ø@@øø@,øø@ø@@ B0mBing Runnersø@@øø@ andøø@ ø@@Flag 5natcher5ø@@",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=22,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="208.167.243.72",Port=0,QueryPort=7778,ServerName="{TPG}Trinity's Playground",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="216.246.110.220",Port=0,QueryPort=7778,ServerName="UT2004 Server",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=38,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="8.12.18.226",Port=0,QueryPort=7778,ServerName="Realmï¿½ofï¿½[PAIN]",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=4,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xBombingRun",SubnetIndex=0,SRL=(ServerID=0,IP="64.31.61.205",Port=0,QueryPort=7778,ServerName="CrazyUncleBobMidWest",MapName=,GameType="xBombingRun",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="178.74.7.68",Port=0,QueryPort=8889,ServerName="ÿÿÿ-ðððÿ=6JþKINðððÿ=ÿÿÿ-6JþServer Norway ðððÿ#2 ÿÿÿ- ðððÿVCTF 6Jþ[ÿÿÿutcomp, zounds6Jþ] ÿÿÿ- 6Jþwww.kingaming.com",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=4,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="79.99.24.5",Port=0,QueryPort=7778,ServerName="#1 DVG TitanRPG VCTF [XTREME EASTER]",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="24.183.135.175",Port=0,QueryPort=7778,ServerName="SouthPaw's Slaughter House III",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="128.204.203.19",Port=0,QueryPort=7778,ServerName="€€€{ø@@V€€€][ø@@M€€€} øøøVCTF Server ÀÀÀwww.vehiclemasters.co.uk NEW SERVER",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="87.231.69.216",Port=0,QueryPort=7778,ServerName="øøø>ø@@>øøø> ø@@> @øøBøøøL@øøAøøøC@øøK @øøSøøøA@øøBøøøB@øøAøøøT@øøH @øøSøøøT@øøRøøøA@øøNøøøG@øøEøøøL@øøOøøøV@øøE @ø@GT @ø@Vøøø/@ø@CTF ø@@< øøø< ø@@< øøø<",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=4,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="24.248.95.171",Port=0,QueryPort=7778,ServerName="!!* Hedsteem:Ballistic Weapons 2.5 VCTF *!!",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=4,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="128.151.144.186",Port=0,QueryPort=7778,ServerName="Apoc MatrixMoves Official UT2004 Server",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=4,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="68.168.212.226",Port=0,QueryPort=8778,ServerName="{SAP}Xtreme-III 4-Team VCTF",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="72.5.102.216",Port=0,QueryPort=7778,ServerName="ø@@SoLø@@øøø}øøøø@@Veh!cle MayHem Serverø@@",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=4,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="68.168.212.229",Port=0,QueryPort=7778,ServerName="{NFA} Extreme VCTF Custom Vehicles/Mods",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="68.168.212.226",Port=0,QueryPort=7778,ServerName="ÒÑÙ{@@€S€€€A@@€PÒÑÙ}@@€Xtreme-II €€€Custom @@€VehiclesÒÑÙ/€€€Mods ÒÑÙ- @@€Welcome €€€Everyone!!",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="66.235.180.112",Port=0,QueryPort=8778,ServerName="ø@@Old Dudes/Dames @ø@House of the UnDead VCTF",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=4,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="24.248.95.171",Port=0,QueryPort=8889,ServerName="-Old Skool -=WGS=-",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=4,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="184.173.98.130",Port=0,QueryPort=18778,ServerName="ø€ø ROSEANNE'S BUM | RoseBumRPG | 60+ WEAPONS",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="XGame.xVehicleCTFGame",SubnetIndex=0,SRL=(ServerID=0,IP="66.150.214.51",Port=0,QueryPort=7778,ServerName="<{CTC}> Server-www.ctclan.us",MapName=,GameType="xVehicleCTFGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=6,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="83.98.163.30",Port=0,QueryPort=7778,ServerName="[Rcon.nl] UT2004 Server",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=32,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="68.12.217.54",Port=0,QueryPort=7778,ServerName="Frag City, USA",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=32,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="217.19.17.197",Port=0,QueryPort=7778,ServerName="Gamersland UT2004 Server",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=38,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="152.10.254.215",Port=0,QueryPort=7778,ServerName="AppState Gaming Club UT2K4 server",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=36,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="66.67.0.225",Port=0,QueryPort=7778,ServerName="Shoecraft Wasteland - Rochester, NY",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=36,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="208.64.36.41",Port=0,QueryPort=7780,ServerName="KROWN_KLAN_ONS",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=36,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="63.97.174.227",Port=0,QueryPort=7778,ServerName="clan-mm.com - ONS - Dallas",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=36,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="128.193.182.195",Port=0,QueryPort=7778,ServerName="OSU Gaming General Server",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=36,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="67.166.135.24",Port=0,QueryPort=7778,ServerName="([A+O]) Official Onslaught Demo Server",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=32,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="24.255.35.122",Port=0,QueryPort=7778,ServerName="nMe Server",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=36,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="85.214.50.53",Port=0,QueryPort=7778,ServerName="<= NGF.UT2K4 => Public Server",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=36,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="209.114.176.73",Port=0,QueryPort=7778,ServerName="[9] Notorious Nine - MUT/DM/ONS - BIG",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=36,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="68.14.83.111",Port=0,QueryPort=7778,ServerName="OMGWTF",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=32,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="131.94.23.232",Port=0,QueryPort=7778,ServerName="UT2004 Server",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=32,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="193.202.83.152",Port=0,QueryPort=7778,ServerName="Exion v3.00 Server",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=36,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="90.240.146.14",Port=0,QueryPort=7778,ServerName="3TNet UT2004 Server",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=36,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="166.82.197.73",Port=0,QueryPort=7778,ServerName="[UTAN] @à@~{TR}~@À@ The Reliquary à@@«àà@: @¤Öñslåüght",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=36,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="85.131.205.55",Port=0,QueryPort=7778,ServerName="Frankfurter UT2004 Server by Luminance.de",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=32,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="74.102.153.98",Port=0,QueryPort=7778,ServerName="(°PPK)PublicONS",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=32,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="68.147.235.153",Port=0,QueryPort=7778,ServerName="kicked asses",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=32,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="71.55.97.200",Port=0,QueryPort=10660,ServerName="UT2004 Server",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=36,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="24.141.123.250",Port=0,QueryPort=57633,ServerName="UT2004 Server",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=32,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="63.97.174.239",Port=0,QueryPort=7778,ServerName="clan-mm.com - IG - Dallas",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=36,SkillLevel=,ServerInfo=,PlayerInfo=))
+
+[GUI2K4.UT2k4MainPage]
+TotalUnlockedCharacters=
+
+[GUI2K4.UT2k4Browser_ServerListPageFavorites]
+RulesListBoxClass=GUI2K4.UT2K4Browser_RulesListBox
+PlayersListBoxClass=GUI2K4.UT2K4Browser_PlayersListBox
+MainSplitterPosition=0.665672
+DetailSplitterPosition=0.460938
+HeaderColumnSizes=(ColumnSizes=(0.096562,0.446875,0.292812,0.110625,0.150000))
+HeaderColumnSizes=(ColumnSizes=(0.564287,0.500000))
+HeaderColumnSizes=(ColumnSizes=(0.340000,0.220000,0.286591,0.220000))
+
+[GUI2K4.UT2k4Browser_ServerListPageLAN]
+RulesListBoxClass=GUI2K4.UT2K4Browser_RulesListBox
+PlayersListBoxClass=GUI2K4.UT2K4Browser_PlayersListBox
+MainSplitterPosition=0.665672
+DetailSplitterPosition=0.460938
+HeaderColumnSizes=(ColumnSizes=(0.096562,0.446875,0.292812,0.110625,0.150000))
+HeaderColumnSizes=(ColumnSizes=(0.564287,0.500000))
+HeaderColumnSizes=(ColumnSizes=(0.340000,0.220000,0.286591,0.220000))
+
+[GUI2K4.UT2k4Browser_ServerListPageBuddy]
+BuddySplitterPosition=0.597582
+BuddyListBoxClass=GUI2K4.UT2K4Browser_BuddyListBox
+RulesListBoxClass=GUI2K4.UT2K4Browser_RulesListBox
+PlayersListBoxClass=GUI2K4.UT2K4Browser_PlayersListBox
+MainSplitterPosition=0.184326
+DetailSplitterPosition=0.319135
+Buddies=evil1
+Buddies=butter
+Buddies=klunxis
+Buddies=adirondack_pete
+Buddies=sandiego
+HeaderColumnSizes=(ColumnSizes=(0.096562,0.493471,0.206944,0.102535,0.150000))
+HeaderColumnSizes=(ColumnSizes=(0.498144,0.500000))
+HeaderColumnSizes=(ColumnSizes=(0.473428,0.185665,0.226824,0.220000))
+
+[GUI2K4.UT2k4Browser_ServerListPageInternet]
+PlayCount=11
+ShowAt=10
+RulesListBoxClass=GUI2K4.UT2K4Browser_RulesListBox
+PlayersListBoxClass=GUI2K4.UT2K4Browser_PlayersListBox
+MainSplitterPosition=0.665672
+DetailSplitterPosition=0.460938
+HeaderColumnSizes=(ColumnSizes=(0.096562,0.446875,0.292812,0.110625,0.150000))
+HeaderColumnSizes=(ColumnSizes=(0.564287,0.500000))
+HeaderColumnSizes=(ColumnSizes=(0.340000,0.220000,0.286591,0.220000))
+
+[XGame.xPlayer]
+bClassicTrans=False
+bDebuggingVoiceChat=False
+bAutoDemoRec=False
+EnemyTurnSpeed=45000
+InputClass=Class'Engine.PlayerInput'
+MidGameMenuClass=GUI2K4.UT2K4DisconnectOptionPage
+DemoMenuClass=GUI2K4.UT2K4DemoPlayback
+AdminMenuClass=GUI2K4.RemoteAdmin
+ChatPasswordMenuClass=GUI2K4.UT2K4ChatPassword
+
+[utcompv16a.BS_xPlayer]
+bStats=True
+bEnableUTCompAutoDemorec=False
+DemoRecordingMask=%d-(%t)-%m-%p
+bEnableAutoScreenshot=False
+ScreenShotMask=%d-(%t)-%m-%p
+FriendlySound=UTCompv16a.Sounds.HitSoundFriendly
+EnemySound=UTCompv16a.Sounds.HitSound
+bEnableHitSounds=True
+HitSoundVolume=1.000000
+bCPMAStyleHitsounds=False
+CPMAPitchModifier=1.400000
+SavedSpectateSpeed=800.000000
+bUseDefaultScoreBoard=False
+bShowSelfInTeamOverlay=True
+bEnableEnhancedNetCode=True
+bEnableColoredNamesOnEnemies=False
+bFirstRun=False
+ballowcoloredmessages=True
+bEnableColoredNamesInTalk=True
+CurrentSelectedColoredName=255
+colorname[0]=(B=255,G=255,R=255,A=255)
+colorname[1]=(B=255,G=255,R=255,A=255)
+colorname[2]=(B=255,G=255,R=255,A=255)
+colorname[3]=(B=255,G=255,R=255,A=255)
+colorname[4]=(B=255,G=255,R=255,A=255)
+colorname[5]=(B=255,G=255,R=255,A=255)
+colorname[6]=(B=255,G=255,R=255,A=255)
+colorname[7]=(B=255,G=255,R=255,A=255)
+colorname[8]=(B=255,G=255,R=255,A=255)
+colorname[9]=(B=255,G=255,R=255,A=255)
+colorname[10]=(B=255,G=255,R=255,A=255)
+colorname[11]=(B=255,G=255,R=255,A=255)
+colorname[12]=(B=255,G=255,R=255,A=255)
+colorname[13]=(B=255,G=255,R=255,A=255)
+colorname[14]=(B=255,G=255,R=255,A=255)
+colorname[15]=(B=255,G=255,R=255,A=255)
+colorname[16]=(B=255,G=255,R=255,A=255)
+colorname[17]=(B=255,G=255,R=255,A=255)
+colorname[18]=(B=255,G=255,R=255,A=255)
+colorname[19]=(B=255,G=255,R=255,A=255)
+bDebuggingVoiceChat=False
+bAutoDemoRec=False
+EnemyTurnSpeed=45000
+InputClass=Class'Engine.PlayerInput'
+MidGameMenuClass=GUI2K4.UT2K4DisconnectOptionPage
+DemoMenuClass=GUI2K4.UT2K4DemoPlayback
+AdminMenuClass=GUI2K4.RemoteAdmin
+ChatPasswordMenuClass=GUI2K4.UT2K4ChatPassword
+
+[utcompv16a.UTComp_xPawn]
+FallbackCharacterName=Arclite
+bEnemyBasedSkins=False
+ClientSkinModeRedTeammate=3
+ClientSkinModeBlueEnemy=3
+PreferredSkinColorRedTeammate=5
+PreferredSkinColorBlueEnemy=6
+BlueEnemyUTCompSkinColor=(B=128,G=0,R=0,A=255)
+RedTeammateUTCompSkinColor=(B=0,G=0,R=128,A=255)
+bBlueEnemyModelsForced=False
+bRedTeammateModelsForced=False
+BlueEnemyModelName=Arclite
+RedTeammateModelName=Arclite
+bEnableDarkSkinning=True
+bEnemyBasedModels=False
+bPlayOwnFootsteps=False
+SelectedEquipment[0]=0
+SelectedEquipment[1]=0
+SelectedEquipment[2]=0
+SelectedEquipment[3]=0
+SelectedEquipment[4]=0
+SelectedEquipment[5]=0
+SelectedEquipment[6]=0
+SelectedEquipment[7]=0
+SelectedEquipment[8]=0
+SelectedEquipment[9]=0
+SelectedEquipment[10]=0
+SelectedEquipment[11]=0
+SelectedEquipment[12]=0
+SelectedEquipment[13]=0
+SelectedEquipment[14]=0
+SelectedEquipment[15]=0
+
+[XGame.xPawn]
+PlacedCharacterName=Jakob
+PlacedFemaleCharacterName=Rylisa
+bPlayOwnFootsteps=False
+bUnlit=True
+SelectedEquipment[0]=0
+SelectedEquipment[1]=0
+SelectedEquipment[2]=0
+SelectedEquipment[3]=0
+SelectedEquipment[4]=0
+SelectedEquipment[5]=0
+SelectedEquipment[6]=0
+SelectedEquipment[7]=0
+SelectedEquipment[8]=0
+SelectedEquipment[9]=0
+SelectedEquipment[10]=0
+SelectedEquipment[11]=0
+SelectedEquipment[12]=0
+SelectedEquipment[13]=0
+SelectedEquipment[14]=0
+SelectedEquipment[15]=0
+
+[UnrealGame.UnrealPawn]
+bPlayerShadows=True
+bBlobShadow=False
+
+[XInterface.HudBase]
+bHideWeaponName=False
+CustomHUDColor=(B=0,G=0,R=0,A=0)
+bUseCustomWeaponCrosshairs=True
+
+[GVehicles_SAP4A.Tumbler]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=600.000000
+
+[AdvancedArmor.ONSArmadillo]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=780.000000
+
+[APVerIII.PredatorAttackHelicopter]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=500.000000
+
+[NodeRunnerFinal105.ONSNodeRunner]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=550.000000
+
+[SAPRENAULTTANK_v2.SAPRENAULTTANK_v2]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=600.000000
+
+[AdvancedArmor.HellBenderMKV]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=375.000000
+
+[MirageVulture.MirageVulture]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=500.000000
+
+[GorillaB001.ONSGorilla]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=450.000000
+
+[MiragePRV.MiragePRV]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=375.000000
+
+[Onslaught.ONSAttackCraft]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=500.000000
+
+[BallisticV2.BallisticPawn]
+bBrightPlayers=False
+bBWPhysics=False
+bPlayOwnFootsteps=False
+SelectedEquipment[0]=0
+SelectedEquipment[1]=0
+SelectedEquipment[2]=0
+SelectedEquipment[3]=0
+SelectedEquipment[4]=0
+SelectedEquipment[5]=0
+SelectedEquipment[6]=0
+SelectedEquipment[7]=0
+SelectedEquipment[8]=0
+SelectedEquipment[9]=0
+SelectedEquipment[10]=0
+SelectedEquipment[11]=0
+SelectedEquipment[12]=0
+SelectedEquipment[13]=0
+SelectedEquipment[14]=0
+SelectedEquipment[15]=0
+
+[XInterface.HudCDeathmatch]
+bShowMissingWeaponInfo=False
+CustomHUDHighlightColor=(B=0,G=0,R=0,A=0)
+
+[MantaMirage.MantaMirage]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=500.000000
+
+[ScorpionGT_Beta2.ONSGTSRV]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=475.000000
+
+[AntiTCC118j.AntiTCCSecurePlayer]
+bDebuggingVoiceChat=False
+bAutoDemoRec=False
+EnemyTurnSpeed=45000
+InputClass=Class'Engine.PlayerInput'
+MidGameMenuClass=GUI2K4.UT2K4DisconnectOptionPage
+DemoMenuClass=GUI2K4.UT2K4DemoPlayback
+AdminMenuClass=GUI2K4.RemoteAdmin
+ChatPasswordMenuClass=GUI2K4.UT2K4ChatPassword
+
+[Onslaught.ONSRV]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=375.000000
+
+[Onslaught.ONSPRV]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=375.000000
+
+[Onslaught.ONSHoverBike]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=500.000000
+
+[ScorpionGT_Beta2.ONSGTRV]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=475.000000
+
+[GUI2K4.UT2K4InGameChat]
+DefaultLeft=0.110313
+DefaultTop=0.057916
+DefaultWidth=0.779688
+DefaultHeight=0.847083
+FadeTime=0.350000
+
+[UTCompv17a.BS_xPlayer]
+bDebuggingVoiceChat=False
+bAutoDemoRec=False
+EnemyTurnSpeed=45000
+InputClass=Class'Engine.PlayerInput'
+MidGameMenuClass=GUI2K4.UT2K4DisconnectOptionPage
+DemoMenuClass=GUI2K4.UT2K4DemoPlayback
+AdminMenuClass=GUI2K4.RemoteAdmin
+ChatPasswordMenuClass=GUI2K4.UT2K4ChatPassword
+
+[UTCompv17a.UTComp_xPawn]
+bPlayOwnFootsteps=False
+SelectedEquipment[0]=0
+SelectedEquipment[1]=0
+SelectedEquipment[2]=0
+SelectedEquipment[3]=0
+SelectedEquipment[4]=0
+SelectedEquipment[5]=0
+SelectedEquipment[6]=0
+SelectedEquipment[7]=0
+SelectedEquipment[8]=0
+SelectedEquipment[9]=0
+SelectedEquipment[10]=0
+SelectedEquipment[11]=0
+SelectedEquipment[12]=0
+SelectedEquipment[13]=0
+SelectedEquipment[14]=0
+SelectedEquipment[15]=0
+
+[MirageScorpion.MirageScorpion]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=375.000000
+
+[m1.Abrams]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=450.000000
+
+[MirageTank.MirageTank]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=1150.000000
+
+[PPCTankll.PPCTankFrontGunPawn]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=150.000000
+
+[BallisticV2.XMV850Turret]
+bDesiredBehindView=False
+TPCamDistance=600.000000
+
+[FlameCar.FlameCar]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=475.000000
+
